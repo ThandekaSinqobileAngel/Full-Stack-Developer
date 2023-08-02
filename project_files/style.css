@@ -1,0 +1,19 @@
+/* Selector {
+  Property:value
+} */
+body {
+  background-image: url(g63.jpg);
+}
+h2 {
+  color: red;
+  text-align: center;
+  border: 5px solid purple;
+}
+p {
+  color: pink;
+}
+p {
+  color: green;
+}
+
+/* cascating means it always takes/changes the color */
