@@ -6,26 +6,28 @@
 	<title>Register</title>
 </head>
 <body>
-	<form>
-		First Name: <input type="text" name=""><br>
-		Last Name: <input type="text" name=""><br>
-		Email: <input type="email" name="" required><br>
-		Password: <input type="password" min="5"><br>
-		Birthday: <input type="date" name=""><br>
-		Gender:<br> 
-		<input type="radio" name="gender">Male<br>
-		<input type="radio" name="gender">Female<br>
-		<input type="radio" name="gender">Other<br>
-		Pets: <br>
-		<input type="checkbox" name="">Cat<br>
-		<input type="checkbox" name="">God<br>
-		Cars: <br>
-		<select>
-			<option value="volvo">Volvo</option>
-			<option value="audi">Audi</option>
-		</select><br>
-		<input type="submit" name="" value="Register">
-		<input type="reset" name="">
-	</form>
+	
+	<!-- span is an inline element, div is a block element, they are both more like boxes used in CSS -->
+		<form method="GET">
+			First Name:<input type="text" name="firstname"><br>
+			Last Name: <input type="text" name="lastname"><br>
+			Email: <input type="email" name="email" required><br>
+			Password: <input type="password" name="password" min="5"><br>
+			Birthday: <input type="date" name="birthday"><br>
+			Gender:<br> 
+			<input type="radio" name="gender" value="Male">Male<br>
+			<input type="radio" name="gender" value="Female">Female<br>
+			<input type="radio" name="gender" value="Other">Other<br>
+			Pets: <br>
+			<input type="checkbox" name="cat">Cat<br>
+			<input type="checkbox" name="dog">Dog<br>
+			Cars: <br>
+			<select name="cars">
+				<option value="volvo">Volvo</option>
+				<option value="audi">Audi</option>
+			</select><br>
+			<input type="submit" name="" value="Register">
+			<input type="reset" name="">
+		</form>
 </body>
 </html>
